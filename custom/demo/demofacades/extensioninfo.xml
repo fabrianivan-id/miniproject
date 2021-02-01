@@ -17,7 +17,7 @@
         <requires-extension name="democore"/>
                 		
         
-        <coremodule generated="true" manager="de.hybris.platform.jalo.extension.GenericManager" packageroot="de.hybris.demo.facades"/>
+        <coremodule generated="true" manager="de.hybris.platform.jalo.extension.GenericManager" packageroot="org.demo.facades"/>
                 		
         
         		

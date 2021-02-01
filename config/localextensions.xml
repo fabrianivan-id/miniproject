@@ -8,14 +8,18 @@
     <extension name='commerceservicesbackoffice' />
     <extension name='solrfacetsearchbackoffice' />
     <extension name='solrserver' />
-    <!--<extension name='yacceleratorbackoffice' />-->
-    <!--<extension name='yacceleratorinitialdata' />-->
-    <!--<extension name='yacceleratorfulfilmentprocess' />-->
-    <!--<extension name='yacceleratorstorefront' />-->
-    <!--<extension name='ycommercewebservices' />-->
-    <!--<extension name='ycommercewebservicestest' />-->
-    <!--<extension name='electronicsstore' />-->
-    <!--<extension name='apparelstore' />-->
+    <extension name='demobackoffice' />
+    <extension name='demoinitialdata' />
+    <extension name='demofulfilmentprocess' />
+    <extension name='demostorefront' />
+    <extension name='demostorefrontcommons' />
+    <extension name='demofacades' />
+    <extension name='demotest' />
+    <extension name='democore' />
+    <extension name='ycommercewebservices' />
+    <extension name='ycommercewebservicestest' />
+    <extension name='electronicsstore' />
+    <extension name='apparelstore' />
     <extension name='captchaaddon' />
     <extension name='acceleratorwebservicesaddon' />
     <extension name='commerceorgsamplesaddon' />
@@ -95,11 +99,5 @@
     <extension name='merchandisingservices' />
     <extension name='merchandisingservicesbackoffice' />
     <extension name='merchandisingstorefrontsampledataaddon' />
-    <extension name="trainingbackoffice" />
-    <extension name="trainingcore"/>
-    <extension name="trainingfulfilmentprocess" />
-    <extension name="traininginitialdata" />
-    <extension name="trainingstorefront" />
-    <extension name="trainingstorefrontcommons" />
   </extensions>
 </hybrisconfig>

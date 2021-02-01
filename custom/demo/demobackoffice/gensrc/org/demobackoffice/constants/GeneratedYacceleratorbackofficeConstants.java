@@ -1,7 +1,7 @@
 /*
  * ----------------------------------------------------------------
  * --- WARNING: THIS FILE IS GENERATED AND WILL BE OVERWRITTEN! ---
- * --- Generated at Jan 28, 2021, 9:34:37 AM                    ---
+ * --- Generated at Feb 1, 2021, 10:10:22 AM                    ---
  * ----------------------------------------------------------------
  */
 package org.demobackoffice.constants;
