@@ -12,7 +12,7 @@
     <extension name='demoinitialdata' />
     <extension name='demofulfilmentprocess' />
     <extension name='demostorefront' />
-    <extension name='demostorefrontcommons' />
+    <!--<extension name='demostorefrontcommons' />-->
     <extension name='demofacades' />
     <extension name='demotest' />
     <extension name='democore' />
