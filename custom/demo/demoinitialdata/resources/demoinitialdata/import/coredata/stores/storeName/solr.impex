@@ -15,7 +15,7 @@ $searchIndexNamePrefix=
 $solrIndexedType=
 $indexBaseSite=
 $indexLanguages=ja,en,de,zh
-$indexCurrencies=JPY,USD
+$indexCurrencies=JPY,USD,IDR
 
 
 #

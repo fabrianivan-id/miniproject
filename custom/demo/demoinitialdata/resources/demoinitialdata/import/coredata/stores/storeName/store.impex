@@ -7,7 +7,7 @@
 
 $productCatalog=__PRODUCT_CATALOG_NAME__
 $classificationCatalog=__CLASSIFICATION_CATALOG_NAME__
-$currencies=JPY,USD
+$currencies=JPY,USD,IDR
 $net=false
 $storeUid=__STORE_UID__
 $defaultCurrency=USD

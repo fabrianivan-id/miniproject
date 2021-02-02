@@ -4,7 +4,7 @@
 #
 # Import the CMS content for the site
 #
-$contentCatalog=demoContentCatalog
+$contentCatalog=trainingContentCatalog
 $contentCV=catalogVersion(CatalogVersion.catalog(Catalog.id[default=$contentCatalog]),CatalogVersion.version[default=Staged])[default=$contentCatalog:Staged]
 
 # Import modulegen config properties into impex macros
@@ -866,42 +866,72 @@ INSERT_UPDATE CategoryPage;$contentCV[unique=true];uid[unique=true];name;masterT
 # "FrontendTemplateName" is used to define the JSP that should be used to render the page for pages with multiple possible layouts.
 # "RestrictedPageTypes" is used to restrict templates to page types
 INSERT_UPDATE PageTemplate;$contentCV[unique=true];uid[unique=true];name;frontendTemplateName;restrictedPageTypes(code);active[default=true]
-                          ;;OrderConfirmationPageTemplate;Order Confirmation Page Template;checkout/checkoutConfirmationLayoutPage;ContentPage
-# Templates without a frontendTemplateName
-                          ;;QuickOrderPageTemplate;Quick Order Page Template;;ContentPage;false;
+;;TrainingPageTemplate;Training Static Page Template;training/trainingPage;ContentPage
+#                          ;;OrderConfirmationPageTemplate;Order Confirmation Page Template;checkout/checkoutConfirmationLayoutPage;ContentPage
+## Templates without a frontendTemplateName
+#                          ;;QuickOrderPageTemplate;Quick Order Page Template;;ContentPage;false;
 
 # Add Velocity templates that are in the CMS Cockpit. These give a better layout for editing pages
 # The FileLoaderValueTranslator loads a File into a String property. The templates could also be inserted in-line in this file.
 UPDATE PageTemplate;$contentCV[unique=true];uid[unique=true];velocityTemplate[translator=de.hybris.platform.commerceservices.impex.impl.FileLoaderValueTranslator]
-                   ;;QuickOrderPageTemplate         ;$jarResourceCms/structure-view/structure_quickOrderPageTemplate.vm
+                    ;;TrainingPageTemplate;$jarResourceCms/structure-view/structure_trainingPageTemplate.vm
+#                   ;;QuickOrderPageTemplate         ;$jarResourceCms/structure-view/structure_quickOrderPageTemplate.vm
 
 INSERT_UPDATE ContentPage;$contentCV[unique=true];uid[unique=true];name;masterTemplate(uid,$contentCV);label;defaultPage[default='true'];approvalStatus(code)[default='approved'];homepage[default='false'];previewImage(code, $contentCV)[default='ContentPageModel__function_preview']
-                         ;;importCSVSavedCartPage;Import CSV as Saved Cart Page;QuickOrderPageTemplate;importCSVSavedCartPage
-                         ;;savedCartDetailsPage;Saved Cart Details Page;AccountPageTemplate;savedCartDetailsPage
-                         ;;saved-carts;Saved Carts Page;AccountPageTemplate;saved-carts
-                         ;;quickOrderPage;Quick Order Page;QuickOrderPageTemplate;quickOrderPage
+                          ;;training-page;Training Page;TrainingPageTemplate;training-page
+                          ;;testing-page;Testing Page;TrainingPageTemplate;testing-page
+                          ;;learning-page;Learning Page;TrainingPageTemplate;learning-page
+#                         ;;importCSVSavedCartPage;Import CSV as Saved Cart Page;QuickOrderPageTemplate;importCSVSavedCartPage
+#                         ;;savedCartDetailsPage;Saved Cart Details Page;AccountPageTemplate;savedCartDetailsPage
+#                         ;;saved-carts;Saved Carts Page;AccountPageTemplate;saved-carts
+#                         ;;quickOrderPage;Quick Order Page;QuickOrderPageTemplate;quickOrderPage
 
 # Quick Order Page Template
-INSERT_UPDATE ContentSlotName;name[unique=true];template(uid,$contentCV)[unique=true][default='QuickOrderPageTemplate'];validComponentTypes(code);compTypeGroup(code)
+INSERT_UPDATE ContentSlotName;name[unique=true];template(uid,$contentCV)[unique=true][default='TrainingPageTemplate'];validComponentTypes(code);compTypeGroup(code)
                              ;SiteLogo;;;logo
                              ;HeaderLinks;;;headerlinks
                              ;SearchBox;;;searchbox
                              ;MiniCart;;;minicart
                              ;NavigationBar;;;navigation
+                             ;MiddleContent;;CMSParagraphComponent,SimpleResponsiveBannerComponent
+                             ;BottomContent;;;wide
                              ;Footer;;;footer
                              ;TopHeaderSlot;;;wide
                              ;BottomHeaderSlot;;;wide
                              ;TopContent;;;wide
                              ;PlaceholderContentSlot;;;
+#INSERT_UPDATE ContentSlotName;name[unique=true];template(uid,$contentCV)[unique=true][default='QuickOrderPageTemplate'];validComponentTypes(code);compTypeGroup(code)
+#                             ;SiteLogo;;;logo
+#                             ;HeaderLinks;;;headerlinks
+#                             ;SearchBox;;;searchbox
+#                             ;MiniCart;;;minicart
+#                             ;NavigationBar;;;navigation
+#                             ;Footer;;;footer
+#                             ;TopHeaderSlot;;;wide
+#                             ;BottomHeaderSlot;;;wide
+#                             ;TopContent;;;wide
+#                             ;PlaceholderContentSlot;;;
 
-INSERT_UPDATE ContentSlotForTemplate;$contentCV[unique=true];uid[unique=true];position[unique=true];pageTemplate(uid,$contentCV)[unique=true][default='QuickOrderPageTemplate'];contentSlot(uid,$contentCV)[unique=true];allowOverwrite
-                                    ;;SiteLogo-QuickOrderPage;SiteLogo;;SiteLogoSlot;true
-                                    ;;HomepageLink-QuickOrderPage;HomepageNavLink;;HomepageNavLinkSlot;true
-                                    ;;NavigationBar-QuickOrderPage;NavigationBar;;NavigationBarSlot;true
-                                    ;;MiniCart-QuickOrderPage;MiniCart;;MiniCartSlot;true
-                                    ;;Footer-QuickOrderPage;Footer;;FooterSlot;true
-                                    ;;HeaderLinks-QuickOrderPage;HeaderLinks;;HeaderLinksSlot;true
-                                    ;;SearchBox-QuickOrderPage;SearchBox;;SearchBoxSlot;true
-                                    ;;TopHeaderSlot-QuickOrderPage;TopHeaderSlot;;TopHeaderSlot;true
-                                    ;;BottomHeaderSlot-QuickOrderPage;BottomHeaderSlot;;BottomHeaderSlot;true
-                                    ;;PlaceholderContentSlot-QuickOrderPage;PlaceholderContentSlot;;PlaceholderContentSlot;true
+#Bind content slots to page template
+INSERT_UPDATE ContentSlotForTemplate;$contentCV[unique=true];uid[unique=true];position[unique=true];pageTemplate(uid,$contentCV)[unique=true][default='TrainingPageTemplate'];contentSlot(uid,$contentCV)[unique=true];allowOverwrite
+                                    ;;SiteLogo-TrainingPage;SiteLogo;;SiteLogoSlot;true
+                                    ;;HomepageLink-TrainingPage;HomepageNavLink;;HomepageNavLinkSlot;true
+                                    ;;NavigationBar-TrainingPage;NavigationBar;;NavigationBarSlot;true
+                                    ;;MiniCart-TrainingPage;MiniCart;;MiniCartSlot;true
+                                    ;;Footer-TrainingPage;Footer;;FooterSlot;true
+                                    ;;HeaderLinks-TrainingPage;HeaderLinks;;HeaderLinksSlot;true
+                                    ;;SearchBox-TrainingPage;SearchBox;;SearchBoxSlot;true
+                                    ;;TopHeaderSlot-TrainingPage;TopHeaderSlot;;TopHeaderSlot;true
+                                    ;;BottomHeaderSlot-TrainingPage;BottomHeaderSlot;;BottomHeaderSlot;true
+                                    ;;PlaceholderContentSlot-TrainingPage;PlaceholderContentSlot;;PlaceholderContentSlot;true
+#INSERT_UPDATE ContentSlotForTemplate;$contentCV[unique=true];uid[unique=true];position[unique=true];pageTemplate(uid,$contentCV)[unique=true][default='QuickOrderPageTemplate'];contentSlot(uid,$contentCV)[unique=true];allowOverwrite
+#                                    ;;SiteLogo-QuickOrderPage;SiteLogo;;SiteLogoSlot;true
+#                                    ;;HomepageLink-QuickOrderPage;HomepageNavLink;;HomepageNavLinkSlot;true
+#                                    ;;NavigationBar-QuickOrderPage;NavigationBar;;NavigationBarSlot;true
+#                                    ;;MiniCart-QuickOrderPage;MiniCart;;MiniCartSlot;true
+#                                    ;;Footer-QuickOrderPage;Footer;;FooterSlot;true
+#                                    ;;HeaderLinks-QuickOrderPage;HeaderLinks;;HeaderLinksSlot;true
+#                                    ;;SearchBox-QuickOrderPage;SearchBox;;SearchBoxSlot;true
+#                                    ;;TopHeaderSlot-QuickOrderPage;TopHeaderSlot;;TopHeaderSlot;true
+#                                    ;;BottomHeaderSlot-QuickOrderPage;BottomHeaderSlot;;BottomHeaderSlot;true
+#                                    ;;PlaceholderContentSlot-QuickOrderPage;PlaceholderContentSlot;;PlaceholderContentSlot;true

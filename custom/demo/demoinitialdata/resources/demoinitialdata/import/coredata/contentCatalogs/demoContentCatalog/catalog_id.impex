@@ -10,4 +10,4 @@ $lang = id
 
 # Create Content Catalog
 UPDATE ContentCatalog; id[unique = true]      ; name[lang = $lang]
-                     ; demoContentCatalog ; "Training Content Catalog"
+                     ; trainingContentCatalog ; "Training Content Catalog"

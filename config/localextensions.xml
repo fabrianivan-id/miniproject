@@ -21,7 +21,7 @@
     <extension name="demofulfilmentprocess"/>
     <extension name="demoinitialdata"/>
     <extension name="demostorefront"/>
-    <extension name="demotest"/>
+    <!--<extension name="demotest"/>-->
     <extension name='captchaaddon' />
     <extension name='acceleratorwebservicesaddon' />
     <extension name='commerceorgsamplesaddon' />

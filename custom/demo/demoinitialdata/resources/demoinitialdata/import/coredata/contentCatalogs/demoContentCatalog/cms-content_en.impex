@@ -5,7 +5,7 @@
 # Import CMS content for the site
 #
 
-$contentCatalog=trainingContentCatalog
+$contentCatalog=demoContentCatalog
 $contentCV=catalogVersion(CatalogVersion.catalog(Catalog.id[default=$contentCatalog]),CatalogVersion.version[default=Staged])[default=$contentCatalog:Staged]
 
 # Language
@@ -29,7 +29,7 @@ UPDATE ContentPage;$contentCV[unique=true];uid[unique=true];title[lang=$lang]
                   ;;orderExpired;"Order Expired Page"
                   ;;orders;"Order History"
                   ;;payment-details;"Payment Details"
-                  ;;quickOrderPage;"Quick Order Page"
+#                  ;;quickOrderPage;"Quick Order Page"
                   ;;search;"Search Results Page"
                   ;;searchEmpty;"No Results"
                   ;;storefinderPage;"StoreFinder"
@@ -38,6 +38,8 @@ UPDATE ContentPage;$contentCV[unique=true];uid[unique=true];title[lang=$lang]
                   ;;update-profile;"Update Profile"
                   ;;updatePassword;"Update Forgotten Password"
                   ;;training-page;"Training Page"
+                  ;;testing-page;"Testing Page"
+                  ;;learning-page;"Learning Page"
 
 
 # Category Pages

@@ -29,7 +29,7 @@ UPDATE ContentPage;$contentCV[unique=true];uid[unique=true];title[lang=$lang]
                   ;;orderExpired;"Order Expired Page"
                   ;;orders;"Order History"
                   ;;payment-details;"Payment Details"
-                  ;;quickOrderPage;"Quick Order Page"
+#                  ;;quickOrderPage;"Quick Order Page"
                   ;;search;"Search Results Page"
                   ;;searchEmpty;"No Results"
                   ;;storefinderPage;"StoreFinder"
@@ -37,7 +37,9 @@ UPDATE ContentPage;$contentCV[unique=true];uid[unique=true];title[lang=$lang]
                   ;;update-email;"Update Email"
                   ;;update-profile;"Update Profile"
                   ;;updatePassword;"Update Forgotten Password"
-                  ;;testimoni-page;"Testimoni Page"
+                  ;;training-page;"Training Page"
+                  ;;testing-page;"Testing Page"
+                  ;;learning-page;"Learning Page"
 
 
 # Category Pages
