@@ -83,7 +83,7 @@
         		
         <filter-name>resourceFilter</filter-name>
         		
-        <filter-class>org.demo.storefront.filters.StaticResourceFilter</filter-class>
+        <filter-class>de.hybris.demo.storefront.filters.StaticResourceFilter</filter-class>
         	
     </filter>
     	
@@ -180,7 +180,7 @@
 			or override beans of the global context and get the 'tenant' scope.
 		</description>
         		
-        <listener-class>org.demo.storefront.filters.HybrisStorefrontContextLoaderListener</listener-class>
+        <listener-class>de.hybris.demo.storefront.filters.HybrisStorefrontContextLoaderListener</listener-class>
         	
     </listener>
     	
@@ -245,7 +245,7 @@
         		
         <servlet-name>DefaultServletAdapter</servlet-name>
         		
-        <servlet-class>org.demo.storefront.web.servlet.DefaultServletAdapter</servlet-class>
+        <servlet-class>de.hybris.demo.storefront.web.servlet.DefaultServletAdapter</servlet-class>
         		
         <load-on-startup>1</load-on-startup>
         	

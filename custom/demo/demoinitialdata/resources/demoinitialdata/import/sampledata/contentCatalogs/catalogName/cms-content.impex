@@ -16,9 +16,9 @@ $image=image(code, $contentCV);
 $media=media(code, $contentCV);
 $page=page(uid, $contentCV);
 $contentPage=contentPage(uid, $contentCV);
-$siteResource=jar:org.demo.initialdata.setup.InitialDataSystemSetup&/demoinitialdata/import/contentCatalogs/$contentCatalog
-$productResource=jar:org.demo.initialdata.setup.InitialDataSystemSetup&/demoinitialdata/import/productCatalogs/$productCatalog
-$jarResourceCms=jar:org.demo.initialdata.setup.InitialDataSystemSetup&/demoinitialdata/import/cockpits/cmscockpit
+$siteResource=jar:de.hybris.demo.initialdata.setup.InitialDataSystemSetup&/demoinitialdata/import/contentCatalogs/$contentCatalog
+$productResource=jar:de.hybris.demo.initialdata.setup.InitialDataSystemSetup&/demoinitialdata/import/productCatalogs/$productCatalog
+$jarResourceCms=jar:de.hybris.demo.initialdata.setup.InitialDataSystemSetup&/demoinitialdata/import/cockpits/cmscockpit
 
 
 # CMS Site Settings

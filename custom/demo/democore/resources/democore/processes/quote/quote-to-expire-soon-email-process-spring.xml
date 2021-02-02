@@ -20,7 +20,7 @@
     </bean>
 
     <bean id="markQuoteToExpireSoonEmailAsSent"
-          class="org.demo.core.actions.quote.MarkQuoteNotificationAsSentAction"
+          class="de.hybris.demo.core.actions.quote.MarkQuoteNotificationAsSentAction"
           parent="markQuoteNotificationAsSent">
         <property name="quoteNotificationType">
             <util:constant

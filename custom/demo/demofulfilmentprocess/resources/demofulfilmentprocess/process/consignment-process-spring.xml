@@ -14,37 +14,37 @@
 
 	<!-- Consignment Process Actions -->
 
-	<bean id="sendConsignmentToWarehouseAction" class="org.demo.fulfilmentprocess.actions.consignment.SendConsignmentToWarehouseAction"  parent="abstractAction">
+	<bean id="sendConsignmentToWarehouseAction" class="de.hybris.demo.fulfilmentprocess.actions.consignment.SendConsignmentToWarehouseAction"  parent="abstractAction">
 		<property name="process2WarehouseAdapter" ref="process2WarehouseAdapter"/>
 	</bean>
 
-	<bean id="waitBeforeTransmissionAction" class="org.demo.fulfilmentprocess.actions.consignment.WaitBeforeTransmissionAction"  parent="abstractAction"/>
+	<bean id="waitBeforeTransmissionAction" class="de.hybris.demo.fulfilmentprocess.actions.consignment.WaitBeforeTransmissionAction"  parent="abstractAction"/>
 
-	<bean id="receiveConsignmentStatusAction" class="org.demo.fulfilmentprocess.actions.consignment.ReceiveConsignmentStatusAction"  parent="abstractAction"/>
+	<bean id="receiveConsignmentStatusAction" class="de.hybris.demo.fulfilmentprocess.actions.consignment.ReceiveConsignmentStatusAction"  parent="abstractAction"/>
 
-	<bean id="confirmConsignmentPickupAction" class="org.demo.fulfilmentprocess.actions.consignment.ConfirmConsignmentPickupAction"  parent="abstractAction"/>
+	<bean id="confirmConsignmentPickupAction" class="de.hybris.demo.fulfilmentprocess.actions.consignment.ConfirmConsignmentPickupAction"  parent="abstractAction"/>
 
-	<bean id="sendDeliveryMessageAction" class="org.demo.fulfilmentprocess.actions.consignment.SendDeliveryMessageAction"  parent="abstractAction">
+	<bean id="sendDeliveryMessageAction" class="de.hybris.demo.fulfilmentprocess.actions.consignment.SendDeliveryMessageAction"  parent="abstractAction">
 		<property name="eventService" ref="eventService"/>
 	</bean>
 
-	<bean id="sendReadyForPickupMessageAction" class="org.demo.fulfilmentprocess.actions.consignment.SendReadyForPickupMessageAction"  parent="abstractAction">
+	<bean id="sendReadyForPickupMessageAction" class="de.hybris.demo.fulfilmentprocess.actions.consignment.SendReadyForPickupMessageAction"  parent="abstractAction">
 		<property name="eventService" ref="eventService"/>
 	</bean>
 	
-	<bean id="sendPickedUpMessageAction" class="org.demo.fulfilmentprocess.actions.consignment.SendPickedUpMessageAction"  parent="abstractAction">
+	<bean id="sendPickedUpMessageAction" class="de.hybris.demo.fulfilmentprocess.actions.consignment.SendPickedUpMessageAction"  parent="abstractAction">
 		<property name="eventService" ref="eventService"/>
 	</bean>
 
-	<bean id="cancelConsignmentAction" class="org.demo.fulfilmentprocess.actions.consignment.CancelConsignmentAction"  parent="abstractAction"/>
+	<bean id="cancelConsignmentAction" class="de.hybris.demo.fulfilmentprocess.actions.consignment.CancelConsignmentAction"  parent="abstractAction"/>
 
-	<bean id="sendCancelMessageAction" class="org.demo.fulfilmentprocess.actions.consignment.SendCancelMessageAction"  parent="abstractAction"/>
+	<bean id="sendCancelMessageAction" class="de.hybris.demo.fulfilmentprocess.actions.consignment.SendCancelMessageAction"  parent="abstractAction"/>
 
-	<bean id="subprocessEndAction" class="org.demo.fulfilmentprocess.actions.consignment.SubprocessEndAction"  parent="abstractAction">
+	<bean id="subprocessEndAction" class="de.hybris.demo.fulfilmentprocess.actions.consignment.SubprocessEndAction"  parent="abstractAction">
 		<property name="businessProcessService" ref="businessProcessService"/>
 	</bean>
 
-	<bean id="allowShipmentAction" class="org.demo.fulfilmentprocess.actions.consignment.AllowShipmentAction"  parent="abstractAction">
+	<bean id="allowShipmentAction" class="de.hybris.demo.fulfilmentprocess.actions.consignment.AllowShipmentAction"  parent="abstractAction">
 		<property name="process2WarehouseAdapter" ref="process2WarehouseAdapter"/>
 	</bean>
 

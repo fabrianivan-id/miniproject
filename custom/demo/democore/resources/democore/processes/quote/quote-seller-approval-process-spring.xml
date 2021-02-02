@@ -13,14 +13,14 @@
 
     <alias name="defaultCheckSellerApproverResponseOnQuoteAction" alias="checkSellerApproverResponseOnQuoteAction"/>
     <bean id="defaultCheckSellerApproverResponseOnQuoteAction"
-          class="org.demo.core.actions.quote.CheckSellerApproverResponseOnQuoteAction"
+          class="de.hybris.demo.core.actions.quote.CheckSellerApproverResponseOnQuoteAction"
           parent="abstractAction">
         <property name="quoteService" ref="quoteService"/>
     </bean>
 
     <alias name="defaultQuoteApprovalRejectedAction" alias="quoteApprovalRejectedAction"/>
     <bean id="defaultQuoteApprovalRejectedAction"
-          class="org.demo.core.actions.quote.QuoteApprovalRejectedAction"
+          class="de.hybris.demo.core.actions.quote.QuoteApprovalRejectedAction"
           parent="abstractAction">
         <property name="commerceQuoteService" ref="commerceQuoteService"/>
         <property name="quoteService" ref="quoteService"/>
