@@ -1,14 +1,14 @@
 /*
  * Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved.
  */
-package org.demo.core.suggestion.impl;
+package de.hybris.demo.core.suggestion.impl;
 
 import de.hybris.platform.catalog.enums.ProductReferenceTypeEnum;
 import de.hybris.platform.category.model.CategoryModel;
 import de.hybris.platform.core.model.product.ProductModel;
 import de.hybris.platform.core.model.user.UserModel;
-import org.demo.core.suggestion.SimpleSuggestionService;
-import org.demo.core.suggestion.dao.SimpleSuggestionDao;
+import de.hybris.demo.core.suggestion.SimpleSuggestionService;
+import de.hybris.demo.core.suggestion.dao.SimpleSuggestionDao;
 
 import java.util.Collections;
 import java.util.List;

@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved.
  */
-package org.demo.test.setup;
+package de.hybris.demo.test.setup;
 
 import de.hybris.platform.commerceservices.setup.AbstractSystemSetup;
 import de.hybris.platform.core.initialization.SystemSetup;
@@ -11,8 +11,8 @@ import de.hybris.platform.core.initialization.SystemSetupContext;
 import de.hybris.platform.core.initialization.SystemSetupParameter;
 import de.hybris.platform.core.initialization.SystemSetupParameterMethod;
 import de.hybris.platform.util.Config;
-import org.demo.test.constants.DemoTestConstants;
-import org.demo.test.orders.AcceleratorTestOrderData;
+import de.hybris.demo.test.constants.DemoTestConstants;
+import de.hybris.demo.test.orders.AcceleratorTestOrderData;
 
 import java.util.ArrayList;
 import java.util.List;

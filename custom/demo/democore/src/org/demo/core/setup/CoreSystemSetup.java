@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved.
  */
-package org.demo.core.setup;
+package de.hybris.demo.core.setup;
 
 import de.hybris.platform.commerceservices.setup.AbstractSystemSetup;
 import de.hybris.platform.core.Registry;
@@ -11,7 +11,7 @@ import de.hybris.platform.core.initialization.SystemSetup.Type;
 import de.hybris.platform.core.initialization.SystemSetupContext;
 import de.hybris.platform.core.initialization.SystemSetupParameter;
 import de.hybris.platform.core.initialization.SystemSetupParameterMethod;
-import org.demo.core.constants.DemoCoreConstants;
+import de.hybris.demo.core.constants.DemoCoreConstants;
 
 import java.util.ArrayList;
 import java.util.List;

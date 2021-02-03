@@ -1,10 +1,10 @@
 /*
  * Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved.
  */
-package org.demo.core.event;
+package de.hybris.demo.core.event;
 
 
-import static org.demo.core.constants.DemoCoreConstants.QUOTE_TO_EXPIRE_SOON_EMAIL_PROCESS;
+import static de.hybris.demo.core.constants.DemoCoreConstants.QUOTE_TO_EXPIRE_SOON_EMAIL_PROCESS;
 
 import org.apache.commons.collections.MapUtils;
 import org.apache.log4j.Logger;

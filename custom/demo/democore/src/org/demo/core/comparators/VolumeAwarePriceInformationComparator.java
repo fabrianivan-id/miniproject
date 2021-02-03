@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved.
  */
-package org.demo.core.comparators;
+package de.hybris.demo.core.comparators;
 
 import de.hybris.platform.europe1.jalo.PriceRow;
 import de.hybris.platform.jalo.order.price.PriceInformation;

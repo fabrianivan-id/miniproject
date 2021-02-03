@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved.
  */
-package org.demo.core.event;
+package de.hybris.demo.core.event;
 
 
 import de.hybris.platform.commerceservices.event.QuoteCancelEvent;
@@ -10,7 +10,7 @@ import de.hybris.platform.core.model.order.QuoteModel;
 import de.hybris.platform.processengine.BusinessProcessService;
 import de.hybris.platform.servicelayer.event.impl.AbstractEventListener;
 import de.hybris.platform.servicelayer.model.ModelService;
-import org.demo.core.constants.DemoCoreConstants;
+import de.hybris.demo.core.constants.DemoCoreConstants;
 
 import java.util.HashMap;
 import java.util.Map;

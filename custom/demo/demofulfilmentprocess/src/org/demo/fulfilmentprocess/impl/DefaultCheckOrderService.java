@@ -1,11 +1,11 @@
 /*
  * Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved.
  */
-package org.demo.fulfilmentprocess.impl;
+package de.hybris.demo.fulfilmentprocess.impl;
 
 import de.hybris.platform.core.model.order.AbstractOrderEntryModel;
 import de.hybris.platform.core.model.order.OrderModel;
-import org.demo.fulfilmentprocess.CheckOrderService;
+import de.hybris.demo.fulfilmentprocess.CheckOrderService;
 
 
 /**

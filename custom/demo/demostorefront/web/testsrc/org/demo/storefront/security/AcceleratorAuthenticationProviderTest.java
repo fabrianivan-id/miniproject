@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved.
  */
-package org.demo.storefront.security;
+package de.hybris.demo.storefront.security;
 
 import static org.mockito.BDDMockito.given;
 import static org.mockito.Mockito.mock;

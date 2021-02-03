@@ -1,10 +1,10 @@
 /*
  * Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved.
  */
-package org.demo.facades.populators;
+package de.hybris.demo.facades.populators;
 
 import de.hybris.platform.converters.Populator;
-import org.demo.facades.product.data.GenderData;
+import de.hybris.demo.facades.product.data.GenderData;
 import de.hybris.platform.core.enums.Gender;
 import de.hybris.platform.servicelayer.type.TypeService;
 

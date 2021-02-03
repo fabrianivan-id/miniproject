@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved.
  */
-package org.demo.core.search.solrfacetsearch.provider.impl;
+package de.hybris.demo.core.search.solrfacetsearch.provider.impl;
 
 import de.hybris.platform.core.enums.Gender;
 import de.hybris.platform.solrfacetsearch.config.IndexConfig;
@@ -11,9 +11,9 @@ import de.hybris.platform.solrfacetsearch.provider.FieldNameProvider;
 import de.hybris.platform.solrfacetsearch.provider.FieldValue;
 import de.hybris.platform.solrfacetsearch.provider.FieldValueProvider;
 import de.hybris.platform.solrfacetsearch.provider.impl.AbstractPropertyFieldValueProvider;
-import org.demo.core.model.ApparelProductModel;
-import org.demo.core.model.ApparelSizeVariantProductModel;
-import org.demo.core.model.ApparelStyleVariantProductModel;
+import de.hybris.demo.core.model.ApparelProductModel;
+import de.hybris.demo.core.model.ApparelSizeVariantProductModel;
+import de.hybris.demo.core.model.ApparelStyleVariantProductModel;
 
 import java.util.ArrayList;
 import java.util.Collection;

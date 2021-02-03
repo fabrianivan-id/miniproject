@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved.
  */
-package org.demo.fulfilmentprocess.actions.order;
+package de.hybris.demo.fulfilmentprocess.actions.order;
 
 import de.hybris.platform.core.enums.OrderStatus;
 import de.hybris.platform.orderprocessing.events.OrderFraudCustomerNotificationEvent;

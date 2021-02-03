@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved.
  */
-package org.demo.fulfilmentprocess.actions.order;
+package de.hybris.demo.fulfilmentprocess.actions.order;
 
 import de.hybris.platform.core.enums.OrderStatus;
 import de.hybris.platform.core.model.order.AbstractOrderEntryModel;
@@ -11,7 +11,7 @@ import de.hybris.platform.ordersplitting.model.ConsignmentModel;
 import de.hybris.platform.ordersplitting.model.ConsignmentProcessModel;
 import de.hybris.platform.processengine.BusinessProcessService;
 import de.hybris.platform.processengine.action.AbstractProceduralAction;
-import org.demo.fulfilmentprocess.constants.DemoFulfilmentProcessConstants;
+import de.hybris.demo.fulfilmentprocess.constants.DemoFulfilmentProcessConstants;
 
 import java.util.ArrayList;
 import java.util.List;

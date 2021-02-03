@@ -1,10 +1,10 @@
 /*
  * Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved.
  */
-package org.demo.storefront.filters;
+package de.hybris.demo.storefront.filters;
 
 import de.hybris.platform.servicelayer.config.ConfigurationService;
-import org.demo.storefront.filters.AcceleratorAddOnFilter.ExtensionAccessor;
+import de.hybris.demo.storefront.filters.AcceleratorAddOnFilter.ExtensionAccessor;
 
 import java.io.File;
 import java.io.IOException;

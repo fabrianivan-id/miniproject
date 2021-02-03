@@ -1,7 +1,7 @@
 /*
  * ----------------------------------------------------------------
  * --- WARNING: THIS FILE IS GENERATED AND WILL BE OVERWRITTEN! ---
- * --- Generated at Feb 1, 2021, 10:10:22 AM                    ---
+ * --- Generated at Feb 3, 2021, 12:42:23 PM                    ---
  * ----------------------------------------------------------------
  */
 package org.demo.core.constants;

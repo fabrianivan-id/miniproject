@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved.
  */
-package org.demo.facades.populators;
+package de.hybris.demo.facades.populators;
 
 import de.hybris.platform.commercefacades.product.data.ProductData;
 import de.hybris.platform.converters.Populator;
@@ -10,8 +10,8 @@ import de.hybris.platform.core.model.product.ProductModel;
 import de.hybris.platform.servicelayer.dto.converter.ConversionException;
 import de.hybris.platform.servicelayer.dto.converter.Converter;
 import de.hybris.platform.variants.model.VariantProductModel;
-import org.demo.core.model.ApparelProductModel;
-import org.demo.facades.product.data.GenderData;
+import de.hybris.demo.core.model.ApparelProductModel;
+import de.hybris.demo.facades.product.data.GenderData;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved.
  */
-package org.demo.core.actions.quote;
+package de.hybris.demo.core.actions.quote;
 
 import de.hybris.platform.processengine.action.AbstractAction;
 import de.hybris.platform.processengine.model.BusinessProcessModel;

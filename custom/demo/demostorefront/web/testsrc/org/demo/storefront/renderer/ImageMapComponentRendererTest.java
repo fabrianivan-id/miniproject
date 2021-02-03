@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved.
  */
-package org.demo.storefront.renderer;
+package de.hybris.demo.storefront.renderer;
 
 import static org.mockito.Mockito.doCallRealMethod;
 import static org.mockito.Mockito.when;

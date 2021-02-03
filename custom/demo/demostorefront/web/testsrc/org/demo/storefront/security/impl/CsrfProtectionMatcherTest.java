@@ -1,12 +1,12 @@
 /*
  * Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved.
  */
-package org.demo.storefront.security.impl;
+package de.hybris.demo.storefront.security.impl;
 
 import de.hybris.bootstrap.annotations.UnitTest;
 import de.hybris.platform.testframework.HybrisJUnit4Test;
 import de.hybris.platform.util.Config;
-import org.demo.storefront.security.CsrfProtectionMatcher;
+import de.hybris.demo.storefront.security.CsrfProtectionMatcher;
 
 import java.util.ArrayList;
 import java.util.List;

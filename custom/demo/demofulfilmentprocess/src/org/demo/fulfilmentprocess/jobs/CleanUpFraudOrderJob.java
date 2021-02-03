@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved.
  */
-package org.demo.fulfilmentprocess.jobs;
+package de.hybris.demo.fulfilmentprocess.jobs;
 
 import de.hybris.platform.cronjob.enums.CronJobResult;
 import de.hybris.platform.cronjob.enums.CronJobStatus;
@@ -12,7 +12,7 @@ import de.hybris.platform.servicelayer.cronjob.AbstractJobPerformable;
 import de.hybris.platform.servicelayer.cronjob.PerformResult;
 import de.hybris.platform.servicelayer.search.FlexibleSearchQuery;
 import de.hybris.platform.servicelayer.search.SearchResult;
-import org.demo.fulfilmentprocess.constants.DemoFulfilmentProcessConstants;
+import de.hybris.demo.fulfilmentprocess.constants.DemoFulfilmentProcessConstants;
 
 import java.util.List;
 

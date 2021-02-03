@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved.
  */
-package org.demo.fulfilmentprocess.actions.order;
+package de.hybris.demo.fulfilmentprocess.actions.order;
 
 import de.hybris.platform.basecommerce.enums.FraudStatus;
 import de.hybris.platform.core.enums.OrderStatus;
@@ -13,7 +13,7 @@ import de.hybris.platform.orderhistory.model.OrderHistoryEntryModel;
 import de.hybris.platform.orderprocessing.model.OrderProcessModel;
 import de.hybris.platform.servicelayer.util.ServicesUtil;
 import de.hybris.platform.util.Config;
-import org.demo.fulfilmentprocess.constants.DemoFulfilmentProcessConstants;
+import de.hybris.demo.fulfilmentprocess.constants.DemoFulfilmentProcessConstants;
 
 import org.springframework.beans.factory.annotation.Required;
 

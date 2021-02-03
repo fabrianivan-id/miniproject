@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved.
  */
-package org.demo.storefront.web.wrappers;
+package de.hybris.demo.storefront.web.wrappers;
 
 import de.hybris.bootstrap.annotations.UnitTest;
 

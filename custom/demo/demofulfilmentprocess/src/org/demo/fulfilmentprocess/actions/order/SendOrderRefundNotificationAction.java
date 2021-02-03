@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved.
  */
-package org.demo.fulfilmentprocess.actions.order;
+package de.hybris.demo.fulfilmentprocess.actions.order;
 
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Required;

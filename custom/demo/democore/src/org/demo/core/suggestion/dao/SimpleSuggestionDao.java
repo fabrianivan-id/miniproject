@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved.
  */
-package org.demo.core.suggestion.dao;
+package de.hybris.demo.core.suggestion.dao;
 
 import de.hybris.platform.catalog.enums.ProductReferenceTypeEnum;
 import de.hybris.platform.category.model.CategoryModel;
@@ -14,7 +14,7 @@ import java.util.List;
 
 /**
  * Dao to retrieve product related data for
- * {@link org.demo.core.suggestion.SimpleSuggestionService}.
+ * {@link de.hybris.demo.core.suggestion.SimpleSuggestionService}.
  */
 public interface SimpleSuggestionDao extends Dao
 {

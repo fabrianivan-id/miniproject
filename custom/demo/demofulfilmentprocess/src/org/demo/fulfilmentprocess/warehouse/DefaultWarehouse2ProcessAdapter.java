@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved.
  */
-package org.demo.fulfilmentprocess.warehouse;
+package de.hybris.demo.fulfilmentprocess.warehouse;
 
 import de.hybris.platform.commerceservices.enums.WarehouseConsignmentState;
 import de.hybris.platform.ordersplitting.model.ConsignmentModel;
@@ -10,7 +10,7 @@ import de.hybris.platform.processengine.BusinessProcessService;
 import de.hybris.platform.servicelayer.model.ModelService;
 import de.hybris.platform.warehouse.Warehouse2ProcessAdapter;
 import de.hybris.platform.warehouse.WarehouseConsignmentStatus;
-import org.demo.fulfilmentprocess.constants.DemoFulfilmentProcessConstants;
+import de.hybris.demo.fulfilmentprocess.constants.DemoFulfilmentProcessConstants;
 
 import java.util.Map;
 

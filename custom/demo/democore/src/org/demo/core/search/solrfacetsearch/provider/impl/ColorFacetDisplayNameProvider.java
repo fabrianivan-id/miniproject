@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved.
  */
-package org.demo.core.search.solrfacetsearch.provider.impl;
+package de.hybris.demo.core.search.solrfacetsearch.provider.impl;
 
 import de.hybris.platform.core.HybrisEnumValue;
 import de.hybris.platform.enumeration.EnumerationService;
@@ -10,7 +10,7 @@ import de.hybris.platform.servicelayer.i18n.I18NService;
 import de.hybris.platform.solrfacetsearch.config.IndexedProperty;
 import de.hybris.platform.solrfacetsearch.provider.impl.AbstractFacetValueDisplayNameProvider;
 import de.hybris.platform.solrfacetsearch.search.SearchQuery;
-import org.demo.core.enums.SwatchColorEnum;
+import de.hybris.demo.core.enums.SwatchColorEnum;
 
 import java.util.Locale;
 

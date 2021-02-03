@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved.
  */
-package org.demo.facades.suggestion.impl;
+package de.hybris.demo.facades.suggestion.impl;
 
 import de.hybris.platform.catalog.enums.ProductReferenceTypeEnum;
 import de.hybris.platform.category.CategoryService;
@@ -16,8 +16,8 @@ import de.hybris.platform.product.ProductService;
 import de.hybris.platform.servicelayer.dto.converter.Converter;
 import de.hybris.platform.servicelayer.user.UserService;
 import de.hybris.platform.variants.model.VariantProductModel;
-import org.demo.core.suggestion.SimpleSuggestionService;
-import org.demo.facades.suggestion.SimpleSuggestionFacade;
+import de.hybris.demo.core.suggestion.SimpleSuggestionService;
+import de.hybris.demo.facades.suggestion.SimpleSuggestionFacade;
 
 import java.util.Collections;
 import java.util.HashSet;

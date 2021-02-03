@@ -1,12 +1,12 @@
 /*
  * Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved.
  */
-package org.demo.fulfilmentprocess.actions.consignment;
+package de.hybris.demo.fulfilmentprocess.actions.consignment;
 
 import de.hybris.platform.ordersplitting.model.ConsignmentProcessModel;
 import de.hybris.platform.processengine.BusinessProcessService;
 import de.hybris.platform.processengine.action.AbstractProceduralAction;
-import org.demo.fulfilmentprocess.constants.DemoFulfilmentProcessConstants;
+import de.hybris.demo.fulfilmentprocess.constants.DemoFulfilmentProcessConstants;
 
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Required;

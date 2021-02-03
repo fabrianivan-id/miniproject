@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved.
  */
-package org.demo.storefront.controllers.cms;
+package de.hybris.demo.storefront.controllers.cms;
 
 import static org.mockito.BDDMockito.given;
 import static org.mockito.Mockito.verify;
@@ -16,7 +16,7 @@ import de.hybris.platform.cms2.servicelayer.services.impl.DefaultCMSComponentSer
 import de.hybris.platform.commercefacades.product.ProductFacade;
 import de.hybris.platform.commercefacades.product.data.ProductReferenceData;
 import de.hybris.platform.core.model.product.ProductModel;
-import org.demo.storefront.controllers.ControllerConstants;
+import de.hybris.demo.storefront.controllers.ControllerConstants;
 
 import java.util.Arrays;
 import java.util.Collections;

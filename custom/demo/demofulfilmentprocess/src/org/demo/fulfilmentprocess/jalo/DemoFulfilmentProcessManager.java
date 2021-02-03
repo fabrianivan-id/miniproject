@@ -5,7 +5,7 @@ package org.demo.fulfilmentprocess.jalo;
 
 import de.hybris.platform.jalo.JaloSession;
 import de.hybris.platform.jalo.extension.ExtensionManager;
-import org.demo.fulfilmentprocess.constants.DemoFulfilmentProcessConstants;
+import de.hybris.demo.fulfilmentprocess.constants.DemoFulfilmentProcessConstants;
 
 public class DemoFulfilmentProcessManager extends GeneratedDemoFulfilmentProcessManager
 {

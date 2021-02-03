@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved.
  */
-package org.demo.storefront.controllers.cms;
+package de.hybris.demo.storefront.controllers.cms;
 
 import static org.mockito.BDDMockito.given;
 
@@ -13,7 +13,7 @@ import de.hybris.platform.cms2.servicelayer.services.impl.DefaultCMSComponentSer
 import de.hybris.platform.commercefacades.order.CartFacade;
 import de.hybris.platform.commercefacades.order.data.CartData;
 import de.hybris.platform.commercefacades.product.data.PriceData;
-import org.demo.storefront.controllers.ControllerConstants;
+import de.hybris.demo.storefront.controllers.ControllerConstants;
 
 import java.math.BigDecimal;
 

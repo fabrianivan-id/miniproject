@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved.
  */
-package org.demo.core.suggestion.dao.impl;
+package de.hybris.demo.core.suggestion.dao.impl;
 
 import de.hybris.platform.catalog.enums.ProductReferenceTypeEnum;
 import de.hybris.platform.category.model.CategoryModel;
@@ -10,7 +10,7 @@ import de.hybris.platform.core.model.user.UserModel;
 import de.hybris.platform.servicelayer.internal.dao.AbstractItemDao;
 import de.hybris.platform.servicelayer.search.FlexibleSearchQuery;
 import de.hybris.platform.servicelayer.search.SearchResult;
-import org.demo.core.suggestion.dao.SimpleSuggestionDao;
+import de.hybris.demo.core.suggestion.dao.SimpleSuggestionDao;
 
 import java.util.HashMap;
 import java.util.List;

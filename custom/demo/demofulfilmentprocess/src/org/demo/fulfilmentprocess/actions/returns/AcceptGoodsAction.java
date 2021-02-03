@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved.
  */
-package org.demo.fulfilmentprocess.actions.returns;
+package de.hybris.demo.fulfilmentprocess.actions.returns;
 
 
 import de.hybris.platform.processengine.action.AbstractProceduralAction;

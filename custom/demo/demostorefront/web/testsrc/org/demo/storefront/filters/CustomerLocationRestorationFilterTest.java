@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved.
  */
-package org.demo.storefront.filters;
+package de.hybris.demo.storefront.filters;
 
 import static org.mockito.BDDMockito.given;
 import static org.mockito.Matchers.any;
@@ -13,7 +13,7 @@ import static org.mockito.Mockito.verify;
 import de.hybris.bootstrap.annotations.UnitTest;
 import de.hybris.platform.acceleratorfacades.customerlocation.CustomerLocationFacade;
 import de.hybris.platform.acceleratorservices.store.data.UserLocationData;
-import org.demo.storefront.security.cookie.CustomerLocationCookieGenerator;
+import de.hybris.demo.storefront.security.cookie.CustomerLocationCookieGenerator;
 
 import java.io.IOException;
 

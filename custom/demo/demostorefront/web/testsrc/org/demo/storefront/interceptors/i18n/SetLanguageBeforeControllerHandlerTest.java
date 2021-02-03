@@ -1,12 +1,12 @@
 /*
  * Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved.
  */
-package org.demo.storefront.interceptors.i18n;
+package de.hybris.demo.storefront.interceptors.i18n;
 
 import de.hybris.platform.commerceservices.i18n.LanguageResolver;
 import de.hybris.platform.core.model.c2l.LanguageModel;
 import de.hybris.platform.servicelayer.i18n.CommonI18NService;
-import org.demo.storefront.interceptors.beforecontroller.SetLanguageBeforeControllerHandler;
+import de.hybris.demo.storefront.interceptors.beforecontroller.SetLanguageBeforeControllerHandler;
 
 import javax.servlet.http.HttpServletRequest;
 

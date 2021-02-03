@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved.
  */
-package org.demo.facades.populators;
+package de.hybris.demo.facades.populators;
 
 import de.hybris.platform.commercefacades.product.ImageFormatMapping;
 import de.hybris.platform.commercefacades.product.converters.populator.VariantOptionDataPopulator;

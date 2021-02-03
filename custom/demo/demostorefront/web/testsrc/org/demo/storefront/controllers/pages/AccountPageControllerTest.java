@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved.
  */
-package org.demo.storefront.controllers.pages;
+package de.hybris.demo.storefront.controllers.pages;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertThat;
@@ -54,7 +54,7 @@ import de.hybris.platform.commerceservices.search.pagedata.PaginationData;
 import de.hybris.platform.commerceservices.search.pagedata.SearchPageData;
 import de.hybris.platform.servicelayer.exceptions.UnknownIdentifierException;
 import de.hybris.platform.servicelayer.i18n.I18NService;
-import org.demo.storefront.controllers.ControllerConstants;
+import de.hybris.demo.storefront.controllers.ControllerConstants;
 
 import java.util.ArrayList;
 import java.util.Collections;

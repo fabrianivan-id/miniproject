@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved.
  */
-package org.demo.core.strategies.impl;
+package de.hybris.demo.core.strategies.impl;
 
 import de.hybris.platform.catalog.model.ProductReferenceModel;
 import de.hybris.platform.category.model.CategoryModel;
@@ -9,8 +9,8 @@ import de.hybris.platform.commerceservices.category.CommerceCategoryService;
 import de.hybris.platform.commerceservices.strategies.ProductReferenceTargetStrategy;
 import de.hybris.platform.core.model.product.ProductModel;
 import de.hybris.platform.variants.model.VariantProductModel;
-import org.demo.core.model.ApparelSizeVariantProductModel;
-import org.demo.core.model.ApparelStyleVariantProductModel;
+import de.hybris.demo.core.model.ApparelSizeVariantProductModel;
+import de.hybris.demo.core.model.ApparelStyleVariantProductModel;
 
 import java.util.LinkedHashSet;
 import java.util.LinkedList;

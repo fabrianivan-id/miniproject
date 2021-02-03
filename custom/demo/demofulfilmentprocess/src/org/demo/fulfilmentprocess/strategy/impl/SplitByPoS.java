@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved.
  */
-package org.demo.fulfilmentprocess.strategy.impl;
+package de.hybris.demo.fulfilmentprocess.strategy.impl;
 
 import de.hybris.platform.core.model.order.AbstractOrderEntryModel;
 import de.hybris.platform.ordersplitting.model.ConsignmentModel;

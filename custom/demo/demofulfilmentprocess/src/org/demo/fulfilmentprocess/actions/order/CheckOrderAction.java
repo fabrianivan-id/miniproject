@@ -1,13 +1,13 @@
 /*
  * Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved.
  */
-package org.demo.fulfilmentprocess.actions.order;
+package de.hybris.demo.fulfilmentprocess.actions.order;
 
 import de.hybris.platform.core.enums.OrderStatus;
 import de.hybris.platform.core.model.order.OrderModel;
 import de.hybris.platform.orderprocessing.model.OrderProcessModel;
 import de.hybris.platform.processengine.action.AbstractSimpleDecisionAction;
-import org.demo.fulfilmentprocess.CheckOrderService;
+import de.hybris.demo.fulfilmentprocess.CheckOrderService;
 
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Required;

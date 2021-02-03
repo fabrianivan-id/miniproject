@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved.
  */
-package org.demo.facades.process.email.context;
+package de.hybris.demo.facades.process.email.context;
 
 import de.hybris.platform.acceleratorservices.model.cms2.pages.EmailPageModel;
 import de.hybris.platform.acceleratorservices.orderprocessing.model.OrderModificationProcessModel;
